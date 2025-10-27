@@ -1,0 +1,21 @@
+# program mengurutkan data dari terkecil ke terbesar
+
+print(" program pengurutan data ")
+
+# meminta jumlah data 
+jumlah = int(input("masukkan jumlah data (minimal 2): "))
+
+if jumlah < 2: 
+     print("jumlah data harus minimal 2!")
+else:
+    data = []
+    # input data sebanyak jumlah yang di minta 
+    for i in range(jumlah):
+        nilai = int(input(f"masukkan data ke-{i+1}: "))
+        data.append(nilai)
+    # mengurutkan data dari kecil ke besar 
+    data.sort()
+    # menampilkan hasil
+    print("/ndata setelah di urutkan (dari terkecil ke terbesar):")
+    for d in data :
+        print(d)
