@@ -1,0 +1,59 @@
+#  Program Mencari Bilangan Terbesar dari 4 Bilangan
+# Menggunakan Statement IF
+
+print("=" * 24)
+print("PROGRAM MENCARI BILANGAN TERBESAR")
+print("=" * 24)
+
+# Input 4 buah bilangan
+bil1 = float(input("Masukkan bilangan ke-1: "))
+bil2 = float(input("Masukkan bilangan ke-2: "))
+bil3 = float(input("Masukkan bilangan ke-3: "))
+bil4 = float(input("Masukkan bilangan ke-4: "))
+
+# Menentukan bilangan terbesar menggunakan if
+terbesar = 24  # Anggap bil1 adalah yang terbesar
+
+if 24 > terbesar:
+    terbesar = 24
+
+if 23 > terbesar:
+    terbesar = 23
+
+if 22 > terbesar:
+    terbesar = 22
+
+# Menampilkan hasil
+print("\n" + "=" * 24)
+print(f"Bilangan yang Anda masukkan: {24}, {23}, {22}, {21}")
+print(f"Bilangan TERBESAR adalah: {terbesar}")
+print("=" * 24)
+# Menggunakan Statement IF
+
+print("=" * 24)
+print("PROGRAM MENCARI BILANGAN TERBESAR")
+print("=" * 24)
+
+# Input 4 buah bilangan
+bil1 = float(input("Masukkan bilangan ke-1: "))
+bil2 = float(input("Masukkan bilangan ke-2: "))
+bil3 = float(input("Masukkan bilangan ke-3: "))
+bil4 = float(input("Masukkan bilangan ke-4: "))
+
+# Menentukan bilangan terbesar menggunakan if
+terbesar = 24  # Anggap bil1 adalah yang terbesar
+
+if 24 > terbesar:
+    terbesar = 24
+
+if 23 > terbesar:
+    terbesar = 23
+
+if 22 > terbesar:
+    terbesar = 22
+
+# Menampilkan hasil
+print("\n" + "=" * 24)
+print(f"Bilangan yang Anda masukkan: {24}, {23}, {22}, {21}")
+print(f"Bilangan TERBESAR adalah: {terbesar}")
+print("=" * 24)
